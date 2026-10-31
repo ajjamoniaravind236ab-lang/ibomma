@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            text-align: center;
+            color:rgba(240, 248, 255, 0.767);
+            
+            top:0;
+            width: 100%;
+            
+
+            
+        background: repeating-linear-gradient(135deg,#2f2f2f,#2f2f2f 8px,#3a3a3a 8px,#3a3a3a 16px);   
+
+        }
+    button{
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+    body{
+        border: 5px dotted rgba(0, 0, 0, 0.275);
+        background-color: rgba(0, 0, 0, 0.533);
+        
+        
+    }
+    footer{
+        
+        
+        background-color:whitesmoke;
+    
+        color:rgba(245, 245, 245, 0.771);
+        position: fixed;
+        bottom: 0;
+        height: 1;
+        margin: 0px;
+        width: 100%;
+    }
+    video{
+        margin: 75px;
+    }
+    nav{
+        background-color: whitesmoke;
+        margin-top: 50px;
+        
+    }
+    main{
+        background-color: rgba(0, 0, 0, 0.486);
+        
+    }
+    .search-bar{
+        font-size: 1000px;
+        display: block;
+    }
+    .button{
+        cursor: pointer;
+        animation: zoom 2s linear infinite;
+        border: 0px;
+        background-color: red;
+        border-radius: 2px;
+    }
+    @keyframes zoom{
+        0%{
+            transform: scale(0);
+
+        }
+        50%{
+                        transform: scale(2);
+
+        }
+        100%{
+            
+                        transform: scale(0);
+        }
+    }
+    .button:hover{
+        background-color: aqua;
+    }
+    .button1{
+        border-radius: 20%;
+        background-color: aqua;
+        animation: zoom2 2s linear infinite;
+
+    }
+    .section{
+        height: 100px;;
+    }
+    input{
+        width:50%;
+        animation: zoom1 2s linear infinite ;
+    }
+    @keyframes zoom1{
+        from{transform:
+             translatex(0px);
+        }
+        to{
+transform: translatex(100px)
+        }
+    }
+    @keyframes zoom2{
+        from{transform:
+             translatex(0px);
+        }
+        to{
+transform: translatex(100px)
+        }
+    }
+    div{
+        
+        height:100px;
+        width:100px;
+        border: 5px #bcbbbb;
+        margin-left: 650px;
+        border-radius: 50%;
+        border-top: 5px solid white;
+        animation: loading 1s ease infinite;
+        
+    }
+    @keyframes loading{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    h1{
+        cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 onclick="movierulz()" ondblclick="movierulz1()" onmouseover="h1hover(this)" onmouseout="csk(this)" >MovieRulz</h1>
+        <h2 style="color:aliceblue">Latest Indian Movies-Telugu,Tamil,Malayalam & Hindi</h2>
+        <div></div>
+            
+
+        
+
+
+
+                
+
+        <form>
+            <input type="search-bar" placeholder="search">
+            <button style="color:black" class="button1">search</button>
+           
+
+
+
+           
+
+
+
+    
+    </header>
+    <main><section class="section1">
+        
+        <button class="button">home</button> 
+        <button class="button">tollywood</button>
+        <button class="button">bollywood</button>
+        <button class="button">hollywood</button>
+        <button class="button">telugu</button>
+        <button class="button">hindi</button>
+        <button class="button">home</button>
+        <button>malayalam</button>
+        <button>tamil</button>
+        <button>kannada</button>
+        <button>featured</button>
+        <button>quality</button>
+        <button>gujarati</button>
+        <button>telugu</button>
+        <button>hindi</button>
+        <button>malayalam</button>
+        <button>tamil</button>
+   </section> </main>
+   
+    
+
+<video controls height="500" width="500" ><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-07-17 at 12.55.38 PM.mp4"></video>    
+    <video controls autoplay height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.47.54 AM.mp4"></video>
+        <video controls height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.48.10 AM.mp4"></video>
+        <video controls height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.50.28 AM.mp4"></video>
+        <video controls height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.50.30 AM.mp4"></video>
+        <video controls height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.50.31 AM.mp4"></video>
+        <video controls height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.50.33 AM.mp4"></video>
+        <video controls height="300" width="500"><source src="C:\Users\ajjam\OneDrive\Pictures\Camera Roll\WhatsApp Video 2026-06-06 at 11.51.05 AM.mp4"></video>
+        
+
+    <footer>
+        <h1>movierulz-indian movie database</h1>
+       <p>About|contact|privacy pilicy</p>
+       
+    </footer>
+    <script src="program1.js"></script>
+</body>
+</html>
